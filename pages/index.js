@@ -4,7 +4,9 @@ import Header from "../components/Header";
 
 export default () => (
   <div>
-    <AppBar />
-    <Header />
+    <div className="min-h-screen">
+      <AppBar />
+      <Header />
+    </div>
   </div>
 );

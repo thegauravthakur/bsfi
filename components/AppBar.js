@@ -5,7 +5,7 @@ const AppBar = () => {
   return (
     <nav className="flex justify-between px-4  sm:px-10 xl:px-32 py-4">
       <div>
-        <p className="text-lg text-blue-600 font-bold">
+        <p className="text-lg text-blue-600 font-bold cursor-pointer">
           Bhaga Sidh Furniture Industry
         </p>
       </div>
@@ -22,7 +22,7 @@ const AppBar = () => {
       </div>
       <button className="md:hidden focus:outline-none">
         <svg
-          className="h-6 w-6 text-gray-400"
+          className="h-6 w-6 text-gray-400 hover:text-gray-600"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
