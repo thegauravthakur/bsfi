@@ -2,18 +2,18 @@ import React from "react";
 
 const WhatMakesUsUnique = () => {
   return (
-    <div className="bg-gray-900 py-10 ">
-      <h2 className="text-white text-4xl  font-bold text-center mb-3 px-4 sm:px-10 xl:px-32">
+    <div className="bg-gray-900 py-20 ">
+      <h2 className="text-white text-3xl md:text-4xl  font-bold text-center mb-3 px-4 sm:px-10 xl:px-32">
         Why you should prefer us from other rivals in the market?
       </h2>
-      <h3 className="text-center text-gray-300 text-lg md:text-xl px-4 sm:px-10 xl:px-32">
+      <h3 className="text-center text-gray-300 text-md md:text-xl px-4 sm:px-10 xl:px-32">
         Aside from being one of the adored furniture stores in the town, we
         provide many perks for our clients like,
       </h3>
       <div className="text-white flex justify-evenly mt-8">
         <div />
         <div>
-          <div className="h-12 w-12 md:h-16 md:w-16 mx-auto">
+          <div className="h-10 w-10 md:h-16 md:w-16 mx-auto">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -32,13 +32,13 @@ const WhatMakesUsUnique = () => {
               />
             </svg>
           </div>
-          <p className="text-center text-2xl md:text-4xl">100%</p>
-          <p className="text-lg md:text-xl text-gray-300 text-center">
+          <p className="text-center text-xl sm:text-4xl font-bold">100%</p>
+          <p className=" text-md sm:text-xl text-gray-300 text-center">
             Free Delivery
           </p>
         </div>
         <div>
-          <div className="h-12 w-12 md:h-16 md:w-16 mx-auto">
+          <div className="h-10 w-10 md:h-16 md:w-16 mx-auto">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -53,13 +53,13 @@ const WhatMakesUsUnique = () => {
               />
             </svg>
           </div>
-          <p className="text-center text-2xl md:text-4xl">2 Years</p>
-          <p className="text-lg md:text-xl text-gray-300 text-center">
+          <p className="text-center text-xl sm:text-4xl font-bold">2 Years</p>
+          <p className=" text-md sm:text-xl text-gray-300 text-center">
             Warranty
           </p>
         </div>
         <div>
-          <div className="h-12 w-12 md:h-16 md:w-16 mx-auto">
+          <div className="h-10 w-10 md:h-16 md:w-16 mx-auto">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -74,8 +74,8 @@ const WhatMakesUsUnique = () => {
               />
             </svg>
           </div>
-          <p className="text-center text-2xl md:text-4xl">100%</p>
-          <p className="text-lg md:text-xl text-gray-300 text-center">
+          <p className="text-center text-xl sm:text-4xl font-bold">100%</p>
+          <p className=" text-md sm:text-xl text-gray-300 text-center">
             Custom Build
           </p>
         </div>
