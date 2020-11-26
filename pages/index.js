@@ -1,6 +1,7 @@
 import React from "react";
 import AppBar from "../components/AppBar";
 import Header from "../components/Header";
+import WhatMakesUsUnique from "../components/WhatMakesUsUnique";
 
 export default () => (
   <div>
@@ -8,5 +9,6 @@ export default () => (
       <AppBar />
       <Header />
     </div>
+    <WhatMakesUsUnique />
   </div>
 );

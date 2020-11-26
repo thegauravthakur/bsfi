@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="px-4 sm:px-10 xl:px-32 py-4 lg:flex lg:justify-between my-5 md:my-10 ">
+    <div className="px-4 sm:px-10 xl:px-32 py-4 lg:flex lg:justify-between my-5 md:my-14 ">
       <div className="self-center max-w-2xl md:text-center lg:text-left md:mx-auto lg:mx-0 ">
         <p className="uppercase text-gray-600 font-semibold ">
           Adorning homes since 1999
@@ -29,6 +29,8 @@ const Header = () => {
         <Image
           height={400}
           width={500}
+          priority
+          loading="eager"
           className="mx-auto border-blue-200 rounded-3xl"
           src="/assets/images/headerSvg.svg"
         />
