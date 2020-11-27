@@ -1,16 +1,24 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const AppBar = () => {
+  const router = useRouter();
   return (
     <nav className="flex justify-between px-4  sm:px-10 xl:px-32 py-4">
       <div>
-        <p className="text-lg text-blue-600 font-bold cursor-pointer">
+        <p
+          onClick={() => router.push("/")}
+          className="text-lg text-blue-600 font-bold cursor-pointer"
+        >
           Bhaga Sidh Furniture Industry
         </p>
       </div>
       <div className="text-gray-600  hidden md:grid grid-cols-3 gap-5">
-        <button className="focus:outline-none hover:text-gray-900">
+        <button
+          onClick={() => router.push("/products")}
+          className="focus:outline-none hover:text-gray-900"
+        >
           Products
         </button>
         <button className="focus:outline-none hover:text-gray-900">
