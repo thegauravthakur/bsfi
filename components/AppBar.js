@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const AppBar = () => {
   const router = useRouter();
   return (
-    <nav className="flex justify-between px-4  sm:px-10 xl:px-32 py-4">
+    <nav className="flex justify-between px-4  sm:px-10 xl:px-32 py-4 ">
       <div>
         <p
           onClick={() => router.push("/")}
