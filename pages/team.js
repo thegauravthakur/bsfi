@@ -42,6 +42,9 @@ const Team = () => {
             image={"/assets/images/team/gaurav.png"}
             name={"Gaurav Thakur"}
             role={"Web Designer"}
+            facebook={"https://facebook.com/geekygaurav"}
+            instagram={"https://instagram.com/gauravthakur.xd"}
+            twitter={"https://twitter.com/gauravcodes"}
           />
           <Card
             image={"/assets/images/team/ankita.png"}

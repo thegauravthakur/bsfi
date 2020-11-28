@@ -2,7 +2,7 @@ import React from "react";
 
 const InstagramIcon = ({ onClick }) => {
   return (
-    <div onClick={onClick} className="w-6">
+    <div onClick={onClick} className="w-6 cursor-pointer">
       <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <title>Instagram icon</title>
         <path

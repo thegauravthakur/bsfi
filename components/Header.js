@@ -25,7 +25,10 @@ const Header = () => {
           >
             Our Products
           </button>
-          <button className="focus:outline-none px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white text-md md:text-xl rounded-md">
+          <button
+            onClick={() => router.push("/contact")}
+            className="focus:outline-none px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white text-md md:text-xl rounded-md"
+          >
             Contact Us
           </button>
         </div>

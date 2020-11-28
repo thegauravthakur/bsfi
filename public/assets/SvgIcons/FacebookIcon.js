@@ -2,7 +2,7 @@ import React from "react";
 
 const FacebookIcon = ({ onClick }) => {
   return (
-    <div onClick={onClick} className="w-6">
+    <div onClick={onClick} className="w-6 cursor-pointer">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <title>Facebook icon</title>
         <path
