@@ -10,7 +10,7 @@ const Card = ({ image, name, role, facebook, twitter, instagram }) => {
         className="rounded-3xl shadow-2xl"
         src={image}
         height={250}
-        width={200}
+        width={"100%"}
       />
 
       <div className="text-center py-3">

@@ -10,7 +10,7 @@ const Team = () => {
   return (
     <Fragment>
       <AppBar />
-      <div className="py-10">
+      <div className=" py-10">
         <h1 className="text-4xl font-bold text-center text-blue-700 px-1 sm:px-0 ">
           Meet Out Team
         </h1>
@@ -18,7 +18,7 @@ const Team = () => {
           Bhaga Sidh Furniture Industry is built and sustained by these
           astounding folks.
         </p>
-        <div className="flex justify-evenly flex-wrap lg:mx-32 xl:mx-40 mt-16">
+        <div className="flex justify-evenly flex-wrap  lg:mx-32 xl:mx-40 mt-16">
           <Card
             image={"/assets/images/team/kamal.png"}
             name={"Kamal Thakur"}

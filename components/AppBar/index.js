@@ -13,7 +13,7 @@ const AppBar = () => {
         <div>
           <p
             onClick={() => router.push("/")}
-            className="text-lg text-blue-600 font-bold cursor-pointer"
+            className="text-lg text-blue-600 font-bold cursor-pointer select-none"
           >
             Bhaga Sidh Furniture Industry
           </p>
@@ -40,13 +40,14 @@ const AppBar = () => {
             Products
           </button>
           <button
+            onClick={() => router.push("/contact")}
             className={`focus:outline-none ${
-              router.pathname === "/custom-build"
+              router.pathname === "/contact"
                 ? "text-blue-600 font-bold"
                 : "hover:text-gray-900"
             }`}
           >
-            Custom Build
+            Contact Us
           </button>
           <button
             onClick={() => router.push("/team")}
@@ -100,12 +101,17 @@ const AppBar = () => {
         </div>
 
         <p className="uppercase text-gray-600 py-2">Furniture</p>
+
+        <MobileAppBarTile
+          loc={"/"}
+          name={"Home"}
+          onClick={() => router.push("/")}
+        />
         <MobileAppBarTile
           loc={"/products"}
           name={"Our Products"}
           onClick={() => router.push("/products")}
         />
-        <MobileAppBarTile name={"Custom Build"} />
         <p className="uppercase text-gray-600 py-2">Features</p>
         <MobileAppBarTile name={"Custom Build"} />
         <MobileAppBarTile
@@ -113,7 +119,10 @@ const AppBar = () => {
           name={"Our Team"}
           onClick={() => router.push("/team")}
         />
-        <button className="my-3 focus:outline-none w-full py-2 bg-blue-600 hover:bg-blue-700 text-white text-md md:text-xl rounded-md">
+        <button
+          onClick={() => router.push("/contact")}
+          className="my-3 focus:outline-none w-full py-2 bg-blue-600 hover:bg-blue-700 text-white text-md md:text-xl rounded-md"
+        >
           Contact Us
         </button>
       </div>

@@ -37,7 +37,7 @@ const Header = () => {
           priority
           loading="eager"
           className="mx-auto border-blue-200 rounded-3xl"
-          src="/assets/images/headerSvg.svg"
+          src="/assets/images/headerImage.png"
         />
       </div>
     </div>
