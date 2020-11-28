@@ -8,10 +8,8 @@ import Footer from "../components/Footer";
 
 export default () => (
   <Fragment>
-    <div className="min-h-screen">
-      <AppBar />
-      <Header />
-    </div>
+    <AppBar />
+    <Header />
     <WhatMakesUsUnique />
     <FeaturesSection />
     <ContactUsNow />

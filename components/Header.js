@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const Header = () => {
   const router = useRouter();
   return (
-    <div className="px-4 sm:px-10 xl:px-32 py-4 lg:flex lg:justify-between my-5 md:my-14 ">
+    <div className="px-4 sm:px-10 xl:px-32 py-4 lg:flex lg:justify-between mb-5 md:mb-14 lg:mt-10 lg:pb-14 ">
       <div className="self-center max-w-2xl md:text-center lg:text-left md:mx-auto lg:mx-0 ">
         <p className="uppercase text-gray-600 font-semibold ">
           Adorning homes since 1999
@@ -30,7 +30,7 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div className="self-center  text-center lg:text-left mx-auto mx-0 mt-16 ">
+      <div className="self-center my-auto text-center lg:text-left mx-auto mx-0 mt-16 ">
         <Image
           height={400}
           width={500}

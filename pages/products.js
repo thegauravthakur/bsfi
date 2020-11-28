@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
 import AppBar from "../components/AppBar";
 import CategoryIcons from "../components/CategoryIcons";
-import BedIcon from "../components/SvgIcons/BedIcon";
-import ChairIcon from "../components/SvgIcons/ChairIcon";
-import CupBoardIcon from "../components/SvgIcons/CupBoardIcon";
-import SofaIcon from "../components/SvgIcons/SofaIcon";
-import StorageIcon from "../components/SvgIcons/StorageIcon";
-import TvUnitIcon from "../components/SvgIcons/TvUnitIcon";
-import MiniTable from "../components/SvgIcons/MiniTable";
-import TableIcons from "../components/SvgIcons/TableIcons";
+import BedIcon from "../public/assets/SvgIcons/BedIcon";
+import ChairIcon from "../public/assets/SvgIcons/ChairIcon";
+import CupBoardIcon from "../public/assets/SvgIcons/CupBoardIcon";
+import SofaIcon from "../public/assets/SvgIcons/SofaIcon";
+import StorageIcon from "../public/assets/SvgIcons/StorageIcon";
+import TvUnitIcon from "../public/assets/SvgIcons/TvUnitIcon";
+import MiniTable from "../public/assets/SvgIcons/MiniTable";
+import TableIcons from "../public/assets/SvgIcons/TableIcons";
 
 const Index = () => {
   return (
