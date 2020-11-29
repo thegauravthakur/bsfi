@@ -5,13 +5,17 @@ import WhatMakesUsUnique from "../components/WhatMakesUsUnique";
 import FeaturesSection from "../components/FeaturesSection";
 import ContactUsNow from "../components/ContactUsNow";
 import Footer from "../components/Footer";
+import ProductCategorySection from "../components/ProductCategorySection";
+import OutObjectives from "../components/OutObjectives";
 
 export default () => (
   <Fragment>
     <AppBar />
     <Header />
-    <WhatMakesUsUnique />
+    <ProductCategorySection />
     <FeaturesSection />
+    <WhatMakesUsUnique />
+    <OutObjectives />
     <ContactUsNow />
     <Footer />
   </Fragment>

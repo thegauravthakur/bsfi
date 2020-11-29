@@ -6,7 +6,7 @@ const WhatMakesUsUnique = () => {
       <h2 className="text-white text-3xl md:text-4xl  font-bold text-center mb-3 px-4 sm:px-10 xl:px-32">
         Why you should prefer us from other rivals in the market?
       </h2>
-      <h3 className="text-center text-gray-300 text-md md:text-xl px-4 sm:px-10 xl:px-32">
+      <h3 className="text-center text-gray-300 text-xl px-4 sm:px-10 xl:px-32">
         Aside from being one of the adored furniture stores in the town, we
         provide many perks for our clients like,
       </h3>

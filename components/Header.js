@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
-
+import Link from "next/link";
 const Header = () => {
   const router = useRouter();
   return (
@@ -25,12 +25,11 @@ const Header = () => {
           >
             Our Products
           </button>
-          <button
-            onClick={() => router.push("/contact")}
-            className="focus:outline-none px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white text-md md:text-xl rounded-md"
-          >
-            Contact Us
-          </button>
+          <Link href={"/contact"}>
+            <button className="focus:outline-none px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white text-md md:text-xl rounded-md">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
       <div className="self-center my-auto text-center lg:text-left mx-auto mx-0 mt-16 ">
