@@ -96,7 +96,7 @@ const Contact = () => {
               later.
             </p>
           ) : null}
-          <form>
+          <form onSubmit={onSubmitHandler}>
             <input
               required
               type="text"
