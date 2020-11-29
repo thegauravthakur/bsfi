@@ -11,7 +11,7 @@ import TableIcons from "../public/assets/SvgIcons/TableIcons";
 
 const ProductCategorySection = () => {
   return (
-    <div className="py-10 bg-gray-900">
+    <div className="py-16 bg-gray-900">
       <h1 className="text-4xl font-bold text-center text-white px-1 sm:px-0 ">
         Explore Our Products
       </h1>
