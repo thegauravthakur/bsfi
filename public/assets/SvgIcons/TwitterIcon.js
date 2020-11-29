@@ -3,7 +3,12 @@ import React from "react";
 const TwitterIcon = ({ onClick }) => {
   return (
     <div onClick={onClick} className="w-6 cursor-pointer">
-      <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24">
+      <svg
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        viewBox="0 0 24 24"
+      >
         <title>Twitter icon</title>
         <path
           className="fill-current"

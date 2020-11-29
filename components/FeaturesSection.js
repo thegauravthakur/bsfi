@@ -4,7 +4,7 @@ import TickIcon from "../public/assets/SvgIcons/TickIcon";
 import SettingIcon from "../public/assets/SvgIcons/SettingIcon";
 import StarIcon from "../public/assets/SvgIcons/StarIcon";
 import HandIcon from "../public/assets/SvgIcons/HandIcon";
-
+import { FiTruck } from "react-icons/fi";
 const FeaturesSection = () => {
   return (
     <div className="py-20">
@@ -32,10 +32,10 @@ const FeaturesSection = () => {
           }
         />
         <SpecialitiesCard
-          name={"99% Client Satisfaction"}
-          Icon={StarIcon}
+          name={"Free Delivery"}
+          Icon={FiTruck}
           description={
-            "We know the value of client gratification and all our businesses are towards raising it more and more."
+            "We afford free delivery for the people of Kullu. This is only applicable if the delivery location is within 12 miles."
           }
         />
         <SpecialitiesCard

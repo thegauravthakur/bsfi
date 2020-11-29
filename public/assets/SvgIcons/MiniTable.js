@@ -7,6 +7,7 @@ const MiniTable = () => {
       data-name="Layer 1"
       viewBox="0 0 30 30"
       className="category-icon"
+      fill="currentColor"
     >
       <title>UL_CATEGORY_ICONS</title>
       <path

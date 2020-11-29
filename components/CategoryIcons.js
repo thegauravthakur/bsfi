@@ -17,7 +17,7 @@ const CategoryIcons = ({ Icon, Name }) => {
             : "text-gray-700"
         }  mx-auto`}
       >
-        <Icon />
+        <Icon size={"2.5em"} />
       </div>
       <p
         onMouseEnter={() => setHover(true)}

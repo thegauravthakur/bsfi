@@ -16,7 +16,7 @@ const Card = ({ image, name, role, facebook, twitter, instagram }) => {
       <div className="text-center py-3">
         <p className="font-bold text-gray-600">{name}</p>
         <p className="my-1">{role}</p>
-        <div className="flex justify-evenly px-10 text-gray-700">
+        <div className="flex justify-evenly my-2 px-10 text-gray-700">
           <FacebookIcon onClick={() => window.open(facebook, "_blank")} />
           <TwitterIcon onClick={() => window.open(twitter, "_blank")} />
           <InstagramIcon onClick={() => window.open(instagram, "_blank")} />
