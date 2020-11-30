@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import AppBar from "../components/AppBar";
 import Card from "../components/team/Card";
+import Footer from "../components/Footer";
 
 const Team = () => {
   const teamMembers = [
@@ -32,6 +33,21 @@ const Team = () => {
       twitter: "https://twitter.com/gauravcodes",
       instagram: "https://instagram.com/gauravthakur.xd",
     },
+    {
+      name: "Bindu Thakur",
+      image: "/assets/images/team/bindu.png",
+      role: "Carpenter",
+    },
+    {
+      name: "Ram Dahyal",
+      image: "/assets/images/team/motu.png",
+      role: "Carpenter",
+    },
+    {
+      name: "Unknown",
+      image: "/assets/images/team/ustaad.png",
+      role: "Carpenter",
+    },
   ];
   return (
     <Fragment>
@@ -57,6 +73,7 @@ const Team = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 };

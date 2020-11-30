@@ -1,13 +1,16 @@
 import React from "react";
 import Image from "next/image";
 
-const ProductCard = ({ description, image, name, price }) => {
+const ProductCard = ({ image, name, price }) => {
   return (
-    <div className="shadow hover:shadow-2xl pb-10 px-4 mx-auto rounded cursor-pointer">
-      <Image src={image} height={300} width={300} />
-      <p className="font-bold">{name} Bed</p>
-      <p>{description}</p>
-      <p className="font-bold">₹{price}</p>
+    <div className="shadow hover:shadow-2xl pb-5 mx-auto cursor-pointer border-2   sm:border-0">
+      <Image src={image} height={220} width={390} />
+      <p className="font-bold px-4 text-center text-gray-700 select-none">
+        {name}{" "}
+      </p>
+      <p className="font-bold px-4 text-center text-blue-800 select-none">
+        starting ₹{price}
+      </p>
     </div>
   );
 };

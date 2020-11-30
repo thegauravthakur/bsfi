@@ -1,5 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
 import AppBar from "../components/AppBar";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const [email, setEmail] = useState("");
@@ -132,7 +133,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className="px-4 py-4 sm:mt-5 sm:px-32 xl:px-52">
+      <div className="px-4 pt-4 pb-10 sm:mt-5 sm:px-32 xl:px-52">
         <h2 className="font-bold text-3xl">Come Visit Us</h2>
         <p className="text-gray-500 text-lg my-3 max-w-md">
           If you want to meet us in person, you can visit our store which is
@@ -145,6 +146,7 @@ const Contact = () => {
           aria-hidden="false"
         />
       </div>
+      <Footer />
     </Fragment>
   );
 };

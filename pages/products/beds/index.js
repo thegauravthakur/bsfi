@@ -3,52 +3,59 @@ import AppBar from "../../../components/AppBar";
 import Image from "next/image";
 import ProductCard from "../../../components/ProductCard";
 import Select from "react-select";
+import Footer from "../../../components/Footer";
 
 const Index = () => {
-  const bedList = [
+  const simpleBed = [
     {
-      name: "Fancy Bed",
-      description: "Bed with storage",
+      name: "King Size Bed",
       price: "10,000",
-      image: "/assets/images/bed/bed1.png",
+      image: "/assets/images/bed/king-size-bed.png",
     },
     {
-      name: "Fancy Bed",
-      description: "Bed with storage",
-      price: "16,000",
-      image: "/assets/images/bed/bed2.png",
+      name: "Double Bed",
+      price: "10,000",
+      image: "/assets/images/bed/double-bed.png",
+    },
+    {
+      name: "Bed without Storage",
+      price: "10,000",
+      image: "/assets/images/bed/bed-without-storage.png",
+    },
+
+    {
+      name: "Queen Size Bed",
+      price: "10,000",
+      image: "/assets/images/bed/queen-size-bed.png",
+    },
+    {
+      name: "Double Bed with Storage",
+      price: "10,000",
+      image: "/assets/images/bed/bed-with-storage.png",
+    },
+    {
+      name: "Single Bed",
+      price: "10,000",
+      image: "/assets/images/bed/single-bed.png",
     },
   ];
-  const options = [
-    { value: "all", label: "All" },
-    { value: "chocolate", label: "Chocolate" },
-    { value: "strawberry", label: "Strawberry" },
-    { value: "vanilla", label: "Vanilla" },
-  ];
+
   return (
     <div>
       <AppBar />
-      <h1 className="text-center text-5xl font-bold text-gray-800 py-10">
+      <h1 className="text-center text-4xl md:text-5xl font-bold text-gray-800 sm:pt-3 md:pt-10 ">
         Beds
       </h1>
-      <div className="px-4 py-4 sm:px-10 xl:px-32">
-        <Select
-          onChange={(e) => console.log(e.label)}
-          defaultValue={options[0]}
-          className="max-w-sm mb-10"
-          options={options}
-        />
-      </div>
-      <div className="grid mx-10 md:mx-32 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-0">
-        {bedList.map((bed) => (
-          <ProductCard
-            name={bed.name}
-            description={bed.description}
-            price={bed.price}
-            image={bed.image}
-          />
+      <p className="text-lg mt-3 text-gray-600 max-w-lg mx-auto text-center px-1 sm:px-0  ">
+        We make beds of numerous varieties. Some of these varieties are
+        tabulated below accompanying with their opening rates.
+      </p>
+      <div className="grid grid-cols-2 lg:grid-cols-3 mt-10 mb-20">
+        {simpleBed.map((bed) => (
+          <ProductCard name={bed.name} price={bed.price} image={bed.image} />
         ))}
       </div>
+      <Footer />
     </div>
   );
 };

@@ -9,6 +9,7 @@ import StorageIcon from "../../public/assets/SvgIcons/StorageIcon";
 import TvUnitIcon from "../../public/assets/SvgIcons/TvUnitIcon";
 import MiniTable from "../../public/assets/SvgIcons/MiniTable";
 import TableIcons from "../../public/assets/SvgIcons/TableIcons";
+import Footer from "../../components/Footer";
 
 const Index = () => {
   return (
@@ -32,6 +33,7 @@ const Index = () => {
           <CategoryIcons Icon={TableIcons} Name={"Table"} />
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 };

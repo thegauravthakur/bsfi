@@ -8,6 +8,7 @@
     height: 24px;
     margin-right: 10px;
 }
+
 .lds-dual-ring:after {
     content: "";
     display: block;
@@ -19,6 +20,7 @@
     border-color: #fff transparent #fff transparent;
     animation: lds-dual-ring 1.2s linear infinite;
 }
+
 @keyframes lds-dual-ring {
     0% {
         transform: rotate(0deg);
@@ -26,4 +28,14 @@
     100% {
         transform: rotate(360deg);
     }
+}
+.footer-link {
+    border-bottom: 2px solid #111827;
+}
+.footer-link:hover {
+    border-bottom: 2px solid white;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, button, div {
+    user-select: none;
 }
