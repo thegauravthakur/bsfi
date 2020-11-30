@@ -7,7 +7,7 @@ export default (req, res) => {
     service: "gmail",
     auth: {
       user: "bhagasidhfurnitureindustry@gmail.com",
-      pass: "GauVibKam1858",
+      pass: process.env.PASSWORD,
     },
   });
 

@@ -19,7 +19,7 @@ const ProductCategorySection = () => {
         All products listed here are handmade by our adept craftsmen.
       </p>
       <div className="grid grid-cols-4 sm:px-42 md:px-20 lg:px-36 xl:px-96 gap-y-5 mt-8">
-        <CategoryIcons Icon={BedIcon} Name={"Beds"} />
+        <CategoryIcons Icon={BedIcon} link={"/products/beds"} Name={"Beds"} />
         <CategoryIcons Icon={ChairIcon} Name={"Sittings"} />
         <CategoryIcons Icon={CupBoardIcon} Name={"Cupboards"} />
         <CategoryIcons Icon={SofaIcon} Name={"Sofa"} />

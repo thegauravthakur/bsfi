@@ -1,12 +1,38 @@
 import React, { Fragment } from "react";
 import AppBar from "../components/AppBar";
-import Image from "next/image";
-import FacebookIcon from "../public/assets/SvgIcons/FacebookIcon";
-import TwitterIcon from "../public/assets/SvgIcons/TwitterIcon";
-import InstagramIcon from "../public/assets/SvgIcons/InstagramIcon";
 import Card from "../components/team/Card";
 
 const Team = () => {
+  const teamMembers = [
+    {
+      name: "Kamal Thakur",
+      image: "/assets/images/team/kamal.png",
+      role: "Lead of Sales",
+    },
+    {
+      name: "Vibha Thakur",
+      image: "/assets/images/team/vibha.png",
+      role: "Account Manager",
+    },
+    {
+      name: "Piyush Thakur",
+      image: "/assets/images/team/piyush.png",
+      role: "Director of Sales",
+    },
+    {
+      name: "Ankita Thakur",
+      image: "/assets/images/team/ankita.png",
+      role: "Lead of Marketing",
+    },
+    {
+      name: "Gaurav Thakur",
+      image: "/assets/images/team/gaurav.png",
+      role: "Web Developer",
+      facebook: "https://fb.com/geekygaurav",
+      twitter: "https://twitter.com/gauravcodes",
+      instagram: "https://instagram.com/gauravthakur.xd",
+    },
+  ];
   return (
     <Fragment>
       <AppBar />
@@ -19,38 +45,16 @@ const Team = () => {
           astounding folks.
         </p>
         <div className="flex justify-evenly flex-wrap  lg:mx-32 xl:mx-40 mt-16">
-          <Card
-            image={"/assets/images/team/kamal.png"}
-            name={"Kamal Thakur"}
-            role={"Lead of Sales"}
-          />
-
-          <Card
-            image={"/assets/images/team/vibha.png"}
-            name={"Vibha Thakur"}
-            role={"Account Manager"}
-            facebook={"https://www.facebook.com/vibha.thakur.393"}
-            twitter={"https://www.twitter.com/"}
-            instagram={"https://instagram.com/vibhathaakur"}
-          />
-          <Card
-            image={"/assets/images/team/piyush.png"}
-            name={"Piyush Thakur"}
-            role={"Director of Sales"}
-          />
-          <Card
-            image={"/assets/images/team/gaurav.png"}
-            name={"Gaurav Thakur"}
-            role={"Web Designer"}
-            facebook={"https://facebook.com/geekygaurav"}
-            instagram={"https://instagram.com/gauravthakur.xd"}
-            twitter={"https://twitter.com/gauravcodes"}
-          />
-          <Card
-            image={"/assets/images/team/ankita.png"}
-            name={"Ankita Thakur"}
-            role={"Lead of Marketing"}
-          />
+          {teamMembers.map((member) => (
+            <Card
+              image={member.image}
+              name={member.name}
+              role={member.role}
+              twitter={member.twitter}
+              instagram={member.instagram}
+              facebook={member.facebook}
+            />
+          ))}
         </div>
       </div>
     </Fragment>
