@@ -20,10 +20,22 @@ const ProductCategorySection = () => {
       </p>
       <div className="grid grid-cols-4 sm:px-42 md:px-20 lg:px-36 xl:px-96 gap-y-5 mt-8">
         <CategoryIcons Icon={BedIcon} link={"/products/beds"} Name={"Beds"} />
-        <CategoryIcons Icon={ChairIcon} Name={"Sittings"} />
-        <CategoryIcons Icon={CupBoardIcon} Name={"Cupboards"} />
-        <CategoryIcons Icon={SofaIcon} Name={"Sofa"} />
-        <CategoryIcons Icon={StorageIcon} Name={"Storage"} />
+        <CategoryIcons
+          Icon={ChairIcon}
+          link={"/products/sittings"}
+          Name={"Sittings"}
+        />
+        <CategoryIcons
+          Icon={CupBoardIcon}
+          link={"/products/cupboards"}
+          Name={"Cupboards"}
+        />
+        <CategoryIcons Icon={SofaIcon} link={"/products/sofas"} Name={"Sofa"} />
+        <CategoryIcons
+          Icon={StorageIcon}
+          link={"/products/storages"}
+          Name={"Storage"}
+        />
         <CategoryIcons Icon={TvUnitIcon} Name={"TV Units"} />
         <CategoryIcons Icon={MiniTable} Name={"Mini Table"} />
         <CategoryIcons Icon={TableIcons} Name={"Table"} />
