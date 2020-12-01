@@ -29,9 +29,17 @@ const ProductsIconGroup = () => {
         link={"/products/storages"}
         Name={"Storage"}
       />
-      <CategoryIcons Icon={TvUnitIcon} Name={"TV Units"} />
-      <CategoryIcons Icon={MiniTable} Name={"Mini Table"} />
-      <CategoryIcons Icon={TableIcons} Name={"Table"} />
+      <CategoryIcons
+        Icon={TvUnitIcon}
+        link={"/products/tv-units"}
+        Name={"TV Units"}
+      />
+      <CategoryIcons
+        Icon={TableIcons}
+        link={"/products/tables"}
+        Name={"Table"}
+      />
+      <CategoryIcons Icon={MiniTable} Name={"Extra"} />
     </div>
   );
 };

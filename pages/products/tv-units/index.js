@@ -8,35 +8,35 @@ import Footer from "../../../components/Footer";
 const Index = () => {
   const storages = [
     {
-      name: "Drawer",
+      name: "Small TV-Unit",
       price: "10,000",
-      image: "/assets/images/storages/drawer.png",
+      image: "/assets/images/tv-units/small-tv-unit.png",
     },
     {
-      name: "Multi-Purpose Cabinet",
+      name: "Wall Mount TV-Unit",
       price: "10,000",
-      image: "/assets/images/storages/multi-purpose-cabinet.png",
+      image: "/assets/images/tv-units/wall-mount-tv-unit.png",
     },
 
     {
-      name: "Shoe Rack",
+      name: "High TV-Unit",
       price: "10,000",
-      image: "/assets/images/storages/shoe-rack.png",
+      image: "/assets/images/tv-units/high-tv-unit.png",
     },
     {
-      name: "Storage Cabinet",
+      name: "TV Table",
       price: "10,000",
-      image: "/assets/images/storages/storage-cabinet.png",
+      image: "/assets/images/tv-units/tv-table.png",
     },
     {
-      name: "Corner Storage",
+      name: "Large TV Unit",
       price: "10,000",
-      image: "/assets/images/storages/corner-storage.png",
+      image: "/assets/images/tv-units/large-tv-unit.png",
     },
     {
-      name: "Book Shelf",
+      name: "Multipurpose TV Unit",
       price: "10,000",
-      image: "/assets/images/storages/book-shelf.png",
+      image: "/assets/images/tv-units/multi-purpose-tv-unit.png",
     },
   ];
 
@@ -44,10 +44,10 @@ const Index = () => {
     <div>
       <AppBar />
       <h1 className="text-center text-4xl md:text-5xl font-bold text-gray-800 sm:pt-3 md:pt-10 ">
-        Storages
+        TV Units
       </h1>
       <p className="text-lg mt-3 text-gray-600 max-w-lg mx-auto text-center px-1 sm:px-0  ">
-        We make storages of numerous varieties. Some of these varieties are
+        We make TV units of numerous varieties. Some of these varieties are
         tabulated below accompanying with their opening rates.
       </p>
       <div className="grid grid-cols-2 lg:grid-cols-3 mt-10 mb-20">
