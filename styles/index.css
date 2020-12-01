@@ -29,13 +29,31 @@
         transform: rotate(360deg);
     }
 }
+
 .footer-link {
     border-bottom: 2px solid #111827;
 }
+
 .footer-link:hover {
     border-bottom: 2px solid white;
 }
 
 p, h1, h2, h3, h4, h5, h6, span, button, div {
     user-select: none;
+}
+
+.min-w-170 {
+    min-width: 170px;
+}
+
+
+@layer utilities {
+    @variants responsive {
+        .min-w-200 {
+            min-width: 200px;
+        }
+        .min-w-250 {
+            min-width: 250px;
+        }
+    }
 }

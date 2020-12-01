@@ -8,33 +8,33 @@ import Footer from "../../../components/Footer";
 const Index = () => {
   const storages = [
     {
-      name: "Small TV-Unit",
+      name: "Small TV-Units",
       price: "10,000",
       image: "/assets/images/tv-units/small-tv-unit.png",
     },
     {
-      name: "Wall Mount TV-Unit",
+      name: "Wall Mount TV-Units",
       price: "10,000",
       image: "/assets/images/tv-units/wall-mount-tv-unit.png",
     },
 
     {
-      name: "High TV-Unit",
+      name: "High TV-Units",
       price: "10,000",
       image: "/assets/images/tv-units/high-tv-unit.png",
     },
     {
-      name: "TV Table",
+      name: "TV Tables",
       price: "10,000",
       image: "/assets/images/tv-units/tv-table.png",
     },
     {
-      name: "Large TV Unit",
+      name: "Large TV Units",
       price: "10,000",
       image: "/assets/images/tv-units/large-tv-unit.png",
     },
     {
-      name: "Multipurpose TV Unit",
+      name: "Multipurpose TV Units",
       price: "10,000",
       image: "/assets/images/tv-units/multi-purpose-tv-unit.png",
     },

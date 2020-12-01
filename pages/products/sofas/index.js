@@ -13,27 +13,27 @@ const Index = () => {
       image: "/assets/images/sofa/sofa.png",
     },
     {
-      name: "Divan",
+      name: "Divans",
       price: "10,000",
       image: "/assets/images/sofa/divan.png",
     },
     {
-      name: "L-Shaped Sofa",
+      name: "L-Shaped Sofas",
       price: "10,000",
       image: "/assets/images/sofa/l-shaped-sofa.png",
     },
     {
-      name: "Lounge",
+      name: "Lounges",
       price: "10,000",
       image: "/assets/images/sofa/lounge.png",
     },
     {
-      name: "Settee Sofa",
+      name: "Settee Sofas",
       price: "10,000",
       image: "/assets/images/sofa/settee-sofa.png",
     },
     {
-      name: "Classic Settee",
+      name: "Classic Settees",
       price: "10,000",
       image: "/assets/images/sofa/classic-settee.png",
     },

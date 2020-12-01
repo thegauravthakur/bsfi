@@ -8,33 +8,33 @@ import Footer from "../../../components/Footer";
 const Index = () => {
   const chairs = [
     {
-      name: "Chair with armrest",
+      name: "Chairs with armrest",
       price: "10,000",
       image: "/assets/images/sittings/chair-with-arm-rest.jpg",
     },
     {
-      name: "Bench without armrest",
+      name: "Benches without armrest",
       price: "10,000",
       image: "/assets/images/sittings/bench-without-arm-rest.png",
     },
     {
-      name: "Wooden Stool",
+      name: "Wooden Stools",
       price: "10,000",
       image: "/assets/images/sittings/stool.png",
     },
 
     {
-      name: "Chair without armrest",
+      name: "Chairs without armrest",
       price: "10,000",
       image: "/assets/images/sittings/chair-without-arm-rest.png",
     },
     {
-      name: "Bench with armrest",
+      name: "Benches with armrest",
       price: "10,000",
       image: "/assets/images/sittings/bench-with-arm-rest.png",
     },
     {
-      name: "Long Stool",
+      name: "Long Stools",
       price: "10,000",
       image: "/assets/images/sittings/long-stool.png",
     },

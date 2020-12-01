@@ -8,33 +8,33 @@ import Footer from "../../../components/Footer";
 const Index = () => {
   const tables = [
     {
-      name: "Dining Table",
+      name: "Dining Tables",
       price: "10,000",
       image: "/assets/images/tables/dining-table.png",
     },
     {
-      name: "Dressing Table",
+      name: "Dressing Tables",
       price: "10,000",
       image: "/assets/images/tables/dressing-table.png",
     },
     {
-      name: "Bed-Side Table",
+      name: "Bed-Side Tables",
       price: "10,000",
       image: "/assets/images/tables/bed-side-table.png",
     },
     {
-      name: "Coffee Table",
+      name: "Coffee Tables",
       price: "10,000",
       image: "/assets/images/tables/coffee-table.png",
     },
     {
-      name: "Console Table",
+      name: "Console Tables",
       price: "10,000",
       image: "/assets/images/tv-units/tv-table.png",
     },
 
     {
-      name: "Computer Table",
+      name: "Computer Tables",
       price: "10,000",
       image: "/assets/images/tables/computer-table.png",
     },

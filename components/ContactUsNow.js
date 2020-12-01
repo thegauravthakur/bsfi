@@ -15,7 +15,7 @@ const ContactUsNow = () => {
         </h3>
       </div>
       <Link href={"/contact"}>
-        <button className="  focus:outline-none px-5 py-2 md:px-8 md:py-3 bg-blue-600 hover:bg-blue-700  text-white text-md md:text-xl rounded-md ">
+        <button className="focus:outline-none px-5 py-2 md:px-8 md:py-3 bg-blue-600 hover:bg-blue-700  text-white text-md md:text-xl rounded-md ">
           Contact Us
         </button>
       </Link>

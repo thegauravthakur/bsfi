@@ -8,12 +8,12 @@ import Footer from "../../../components/Footer";
 const Index = () => {
   const extras = [
     {
-      name: "Wooden Window",
+      name: "Wooden Windows",
       price: "10,000",
       image: "/assets/images/extra/wooden-window.png",
     },
     {
-      name: "Wooden Door",
+      name: "Wooden Doors",
       price: "10,000",
       image: "/assets/images/extra/wooden-Door.png",
     },

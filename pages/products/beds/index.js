@@ -8,33 +8,33 @@ import Footer from "../../../components/Footer";
 const Index = () => {
   const simpleBed = [
     {
-      name: "King Size Bed",
+      name: "King Size Beds",
       price: "10,000",
       image: "/assets/images/bed/king-size-bed.png",
     },
     {
-      name: "Double Bed",
+      name: "Double Beds",
       price: "10,000",
       image: "/assets/images/bed/double-bed.png",
     },
     {
-      name: "Bed without Storage",
+      name: "Beds without Storage",
       price: "10,000",
       image: "/assets/images/bed/bed-without-storage.png",
     },
 
     {
-      name: "Queen Size Bed",
+      name: "Queen Size Beds",
       price: "10,000",
       image: "/assets/images/bed/queen-size-bed.png",
     },
     {
-      name: "Double Bed with Storage",
+      name: "Double Beds with Storage",
       price: "10,000",
       image: "/assets/images/bed/bed-with-storage.png",
     },
     {
-      name: "Single Bed",
+      name: "Single Beds",
       price: "10,000",
       image: "/assets/images/bed/single-bed.png",
     },

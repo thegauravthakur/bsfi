@@ -15,8 +15,8 @@ const ProductsIconGroup = () => {
       <CategoryIcons Icon={BedIcon} link={"/products/beds"} Name={"Beds"} />
       <CategoryIcons
         Icon={ChairIcon}
-        link={"/products/sittings"}
-        Name={"Sittings"}
+        link={"/products/seatings"}
+        Name={"seating"}
       />
       <CategoryIcons
         Icon={CupBoardIcon}
@@ -27,7 +27,7 @@ const ProductsIconGroup = () => {
       <CategoryIcons
         Icon={StorageIcon}
         link={"/products/storages"}
-        Name={"Storage"}
+        Name={"Storages"}
       />
       <CategoryIcons
         Icon={TvUnitIcon}
@@ -37,9 +37,9 @@ const ProductsIconGroup = () => {
       <CategoryIcons
         Icon={TableIcons}
         link={"/products/tables"}
-        Name={"Table"}
+        Name={"Tables"}
       />
-      <CategoryIcons Icon={MiniTable} Name={"Extra"} />
+      <CategoryIcons Icon={MiniTable} Name={"Extras"} />
     </div>
   );
 };

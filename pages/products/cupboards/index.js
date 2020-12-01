@@ -8,33 +8,33 @@ import Footer from "../../../components/Footer";
 const Index = () => {
   const cupboards = [
     {
-      name: "2 Door Wardrobe",
+      name: "2 Door Wardrobes",
       price: "10,000",
       image: "/assets/images/cupboard/wardrobe-with-mirror.png",
     },
     {
-      name: "3 door Wardrobe",
+      name: "3 door Wardrobes",
       price: "10,000",
       image: "/assets/images/cupboard/3-door-wardrobe.png",
     },
     {
-      name: "Single Door Wardrobe",
+      name: "Single Door Wardrobes",
       price: "10,000",
       image: "/assets/images/cupboard/single-door-wardrobe.png",
     },
     {
-      name: "2 Door Wardrobe without mirror",
+      name: "2 Door Wardrobes without mirror",
       price: "10,000",
       image: "/assets/images/cupboard/2-door-wardrobe-without-mirror.png",
     },
 
     {
-      name: "3 door Wardrobe with mirror",
+      name: "3 door Wardrobes with mirror",
       price: "10,000",
       image: "/assets/images/cupboard/3-door-wardrobe-with-mirror.png",
     },
     {
-      name: "1 door wardrobe with mirror",
+      name: "1 door wardrobes with mirror",
       price: "10,000",
       image: "/assets/images/cupboard/single-door-wardrobe-with-mirror.png",
     },

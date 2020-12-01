@@ -8,33 +8,33 @@ import Footer from "../../../components/Footer";
 const Index = () => {
   const storages = [
     {
-      name: "Drawer",
+      name: "Drawers",
       price: "10,000",
       image: "/assets/images/storages/drawer.png",
     },
     {
-      name: "Multi-Purpose Cabinet",
+      name: "Multi-Purpose Cabinets",
       price: "10,000",
       image: "/assets/images/storages/multi-purpose-cabinet.png",
     },
 
     {
-      name: "Shoe Rack",
+      name: "Shoe Racks",
       price: "10,000",
       image: "/assets/images/storages/shoe-rack.png",
     },
     {
-      name: "Storage Cabinet",
+      name: "Storage Cabinets",
       price: "10,000",
       image: "/assets/images/storages/storage-cabinet.png",
     },
     {
-      name: "Corner Storage",
+      name: "Corner Storages",
       price: "10,000",
       image: "/assets/images/storages/corner-storage.png",
     },
     {
-      name: "Book Shelf",
+      name: "Book Shelves",
       price: "10,000",
       image: "/assets/images/storages/book-shelf.png",
     },
