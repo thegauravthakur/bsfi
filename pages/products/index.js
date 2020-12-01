@@ -10,6 +10,7 @@ import TvUnitIcon from "../../public/assets/SvgIcons/TvUnitIcon";
 import MiniTable from "../../public/assets/SvgIcons/MiniTable";
 import TableIcons from "../../public/assets/SvgIcons/TableIcons";
 import Footer from "../../components/Footer";
+import ProductsIconGroup from "../../components/ProductsIconGroup";
 
 const Index = () => {
   return (
@@ -22,16 +23,7 @@ const Index = () => {
         <p className="text-lg mt-3 text-gray-600 max-w-md mx-auto text-center px-1 sm:px-0 ">
           All products listed here are handmade by our adept craftsmen.
         </p>
-        <div className="grid grid-cols-4 sm:px-42 md:px-20 lg:px-36 xl:px-96 gap-y-5 mt-8">
-          <CategoryIcons Icon={BedIcon} link={"/products/beds"} Name={"Beds"} />
-          <CategoryIcons Icon={ChairIcon} Name={"Sittings"} />
-          <CategoryIcons Icon={CupBoardIcon} Name={"Cupboards"} />
-          <CategoryIcons Icon={SofaIcon} Name={"Sofa"} />
-          <CategoryIcons Icon={StorageIcon} Name={"Storage"} />
-          <CategoryIcons Icon={TvUnitIcon} Name={"TV Units"} />
-          <CategoryIcons Icon={MiniTable} Name={"Mini Table"} />
-          <CategoryIcons Icon={TableIcons} Name={"Table"} />
-        </div>
+        <ProductsIconGroup />
       </div>
       <Footer />
     </Fragment>
