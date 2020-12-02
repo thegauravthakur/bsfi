@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from "react";
-import Image from "next/image";
 import { useRouter } from "next/router";
 import MobileAppBarTile from "./MobileAppBarTile";
 import CrossIcon from "../../public/assets/SvgIcons/CrossIcon";
@@ -121,12 +120,6 @@ const AppBar = () => {
           name={"Our Team"}
           onClick={() => router.push("/team")}
         />
-        {/*<button*/}
-        {/*  onClick={() => router.push("/contact")}*/}
-        {/*  className="my-3 focus:outline-none w-full py-2 bg-blue-600 hover:bg-blue-700 text-white text-md md:text-xl rounded-md"*/}
-        {/*>*/}
-        {/*  Contact Us*/}
-        {/*</button>*/}
       </div>
     </Fragment>
   );

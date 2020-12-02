@@ -39,7 +39,11 @@ const ProductsIconGroup = () => {
         link={"/products/tables"}
         Name={"Tables"}
       />
-      <CategoryIcons Icon={MiniTable} Name={"Extras"} />
+      <CategoryIcons
+        link={"/products/extra"}
+        Icon={MiniTable}
+        Name={"Extras"}
+      />
     </div>
   );
 };

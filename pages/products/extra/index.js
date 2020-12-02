@@ -28,7 +28,7 @@ const Index = () => {
         We make numerous other type of items. Some of these items are tabulated
         below accompanying with their opening rates.
       </p>
-      <div className="grid grid-cols-2 lg:grid-cols-3 mt-10 mb-20">
+      <div className="grid grid-cols-2 lg:grid-cols-3 mt-10 mb-20 md:gap-y-8 lg:gap-y-12">
         {extras.map((extra) => (
           <ProductCard
             name={extra.name}

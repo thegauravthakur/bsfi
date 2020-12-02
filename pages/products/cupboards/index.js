@@ -49,7 +49,7 @@ const Index = () => {
         We make wardrobes of numerous varieties. Some of these varieties are
         tabulated below accompanying with their opening rates.
       </p>
-      <div className="grid grid-cols-2 lg:grid-cols-3 mt-10 mb-20">
+      <div className="grid grid-cols-2 lg:grid-cols-3 mt-10 mb-20 md:gap-y-8 lg:gap-y-12">
         {cupboards.map((cupboard) => (
           <ProductCard
             name={cupboard.name}
