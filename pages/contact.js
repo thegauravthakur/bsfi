@@ -1,6 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
 import AppBar from "../components/AppBar";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 const Contact = () => {
   const [email, setEmail] = useState("");
@@ -42,6 +43,9 @@ const Contact = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <AppBar />
+      <Head>
+        <title>Contact Us</title>
+      </Head>
       <div className="flex-1">
         <div className="justify-between flex-row lg:flex px-4 py-4 sm:mt-5 sm:px-32 xl:px-52 ">
           <div className="max-w-md md:pr-10 mb-10">

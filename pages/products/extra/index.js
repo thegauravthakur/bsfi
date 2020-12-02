@@ -3,6 +3,7 @@ import AppBar from "../../../components/AppBar";
 import Image from "next/image";
 import ProductCard from "../../../components/ProductCard";
 import Footer from "../../../components/Footer";
+import Head from "next/head";
 
 const Index = () => {
   const extras = [
@@ -21,6 +22,9 @@ const Index = () => {
   return (
     <div>
       <AppBar />
+      <Head>
+        <title>Extras</title>
+      </Head>
       <h1 className="text-center text-4xl md:text-5xl font-bold text-gray-800 sm:pt-3 md:pt-10 ">
         Extra
       </h1>

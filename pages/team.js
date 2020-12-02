@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import AppBar from "../components/AppBar";
 import Card from "../components/team/Card";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 const Team = () => {
   const teamMembers = [
@@ -72,6 +73,9 @@ const Team = () => {
   ];
   return (
     <div className="flex flex-col min-h-screen">
+      <Head>
+        <title>Our Team</title>
+      </Head>
       <AppBar />
       <div className="py-10  flex-1">
         <h1 className="text-4xl font-bold text-center text-blue-700 px-1 sm:px-0 ">

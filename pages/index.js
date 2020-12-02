@@ -7,9 +7,13 @@ import ContactUsNow from "../components/ContactUsNow";
 import Footer from "../components/Footer";
 import ProductCategorySection from "../components/ProductCategorySection";
 import OutObjectives from "../components/OutObjectives";
+import Head from "next/head";
 
 export default () => (
   <Fragment>
+    <Head>
+      <title>BSFI: Homepage</title>
+    </Head>
     <AppBar />
     <Header />
     <ProductCategorySection />
