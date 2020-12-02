@@ -28,7 +28,10 @@ const Contact = () => {
       .then(() => {
         setSuccess(true);
         setLoading(false);
-        setTimeout(() => setSuccess(false), 5000);
+        setEmail("");
+        setName("");
+        setMessage("");
+        setTimeout(() => setSuccess(false), 15000);
       })
       .catch((err) => {
         setError(true);

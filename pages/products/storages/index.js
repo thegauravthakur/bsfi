@@ -2,7 +2,6 @@ import React from "react";
 import AppBar from "../../../components/AppBar";
 import Image from "next/image";
 import ProductCard from "../../../components/ProductCard";
-import Select from "react-select";
 import Footer from "../../../components/Footer";
 
 const Index = () => {

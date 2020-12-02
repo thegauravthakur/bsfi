@@ -1,14 +1,5 @@
 import React, { Fragment } from "react";
 import AppBar from "../../components/AppBar";
-import CategoryIcons from "../../components/CategoryIcons";
-import BedIcon from "../../public/assets/SvgIcons/BedIcon";
-import ChairIcon from "../../public/assets/SvgIcons/ChairIcon";
-import CupBoardIcon from "../../public/assets/SvgIcons/CupBoardIcon";
-import SofaIcon from "../../public/assets/SvgIcons/SofaIcon";
-import StorageIcon from "../../public/assets/SvgIcons/StorageIcon";
-import TvUnitIcon from "../../public/assets/SvgIcons/TvUnitIcon";
-import MiniTable from "../../public/assets/SvgIcons/MiniTable";
-import TableIcons from "../../public/assets/SvgIcons/TableIcons";
 import Footer from "../../components/Footer";
 import ProductsIconGroup from "../../components/ProductsIconGroup";
 
