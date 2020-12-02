@@ -82,7 +82,7 @@ const AppBar = () => {
       </nav>
       <div
         className={`${
-          show ? "absolute" : "hidden"
+          show ? "absolute z-10" : "hidden"
         } top-0 bg-white my-3 p-5  min-w-full shadow-2xl rounded-2xl border md:hidden`}
       >
         <div className="flex justify-between ">
