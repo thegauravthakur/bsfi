@@ -12,7 +12,7 @@ const Footer = () => {
         router.pathname !== "/" ? "rounded-t-3xl" : ""
       }`}
     >
-      <div className="flex justify-evenly w-32 mx-auto ">
+      <div className="flex justify-evenly w-32 mx-auto remove-touch-effect">
         <IoLogoFacebook
           onClick={() => window.open("https://fb.com/gauravcodes", "_blank")}
           size={35}
@@ -31,7 +31,7 @@ const Footer = () => {
           className="cursor-pointer text-gray-300 hover:text-gray-400"
         />
       </div>
-      <div className="text-white flex justify-evenly w-52 mx-auto mt-3">
+      <div className="text-white flex justify-evenly w-52 mx-auto mt-3 remove-touch-effect">
         <Link href={"/products"}>
           <p className="footer-link cursor-pointer text-sm hover:text-blue-400">
             Products

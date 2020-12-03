@@ -60,8 +60,9 @@ const AppBar = () => {
           </button>
         </div>
         <button
+          type={"button"}
           onClick={() => setShow(true)}
-          className=" md:hidden focus:outline-none"
+          className="md:hidden focus:outline-none remove-touch-effect"
         >
           <svg
             className="h-6 w-6 text-gray-400 hover:text-gray-600"
@@ -93,7 +94,7 @@ const AppBar = () => {
           </p>
           <button
             onClick={() => setShow(false)}
-            className=" focus:outline-none"
+            className="focus:outline-none remove-touch-effect "
           >
             <CrossIcon />
           </button>
