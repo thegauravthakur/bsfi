@@ -34,6 +34,7 @@ const Header = () => {
       </div>
       <div className="self-center my-auto text-center lg:text-left mx-auto mx-0 mt-16 ">
         <Image
+          alt={"Header Image"}
           height={400}
           width={500}
           priority

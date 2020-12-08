@@ -60,6 +60,7 @@ const Footer = () => {
         Made with ❤ in India by{" "}
         <Link href="https://gauravthakur.in">
           <a
+            rel="noopener"
             target="_blank"
             className="text-white footer-link hover:text-blue-400"
           >

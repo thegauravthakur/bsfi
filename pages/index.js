@@ -12,7 +12,11 @@ import Head from "next/head";
 export default () => (
   <Fragment>
     <Head>
-      <title>BSFI: Homepage</title>
+      <title>Bhaga Sidh Furniture Industry: Buy Best Furniture in Kullu </title>
+      <meta
+        name="description"
+        content="Bhaga Sidh Furniture Industry is one of the best places in Kullu to buy furniture. We have more than 20 years of professional expertise in the market for furniture"
+      />
     </Head>
     <AppBar />
     <Header />

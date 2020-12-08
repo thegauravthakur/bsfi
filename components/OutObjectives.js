@@ -14,6 +14,7 @@ const OutObjectives = () => {
       <div className="flex justify-evenly flex-wrap">
         <div className="max-w-sm">
           <img
+            alt={"High Quality Products"}
             className="my-5 h-60 mx-auto"
             src={"/assets/images/quality_check.png"}
           />
@@ -26,6 +27,7 @@ const OutObjectives = () => {
         </div>
         <div className="max-w-sm">
           <img
+            alt={"client satisfaction"}
             className="my-5 h-60 mx-auto"
             src={"/assets/images/team_success_.png"}
           />
@@ -38,6 +40,7 @@ const OutObjectives = () => {
         </div>
         <div className="max-w-sm">
           <img
+            alt={"affordable pricing"}
             className="my-5 h-60 mx-auto"
             src={"/assets/images/calculator.png"}
           />
