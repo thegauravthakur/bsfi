@@ -9,33 +9,33 @@ const Index = () => {
   const chairs = [
     {
       name: "Chairs with armrest",
-      price: "10,000",
+      price: "3,000",
       image: "/assets/images/sittings/chair-with-arm-rest.jpg",
     },
     {
       name: "Benches without armrest",
-      price: "10,000",
+      price: "8,000",
       image: "/assets/images/sittings/bench-without-arm-rest.png",
     },
     {
       name: "Wooden Stools",
-      price: "10,000",
+      price: "1,000",
       image: "/assets/images/sittings/stool.png",
     },
 
     {
       name: "Chairs without armrest",
-      price: "10,000",
+      price: "1,000",
       image: "/assets/images/sittings/chair-without-arm-rest.png",
     },
     {
       name: "Benches with armrest",
-      price: "10,000",
+      price: "6,000",
       image: "/assets/images/sittings/bench-with-arm-rest.png",
     },
     {
       name: "Long Stools",
-      price: "10,000",
+      price: "2,000",
       image: "/assets/images/sittings/long-stool.png",
     },
   ];

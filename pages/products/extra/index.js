@@ -9,12 +9,12 @@ const Index = () => {
   const extras = [
     {
       name: "Wooden Windows",
-      price: "10,000",
+      price: "Contact Us",
       image: "/assets/images/extra/wooden-window.png",
     },
     {
       name: "Wooden Doors",
-      price: "10,000",
+      price: "Contact Us",
       image: "/assets/images/extra/wooden-Door.png",
     },
   ];

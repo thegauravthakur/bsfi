@@ -9,33 +9,33 @@ const Index = () => {
   const storages = [
     {
       name: "Drawers",
-      price: "10,000",
+      price: "3,000",
       image: "/assets/images/storages/drawer.png",
     },
     {
       name: "Multi-Purpose Cabinets",
-      price: "10,000",
+      price: "2,000",
       image: "/assets/images/storages/multi-purpose-cabinet.png",
     },
 
     {
       name: "Shoe Racks",
-      price: "10,000",
+      price: "3,000",
       image: "/assets/images/storages/shoe-rack.png",
     },
     {
       name: "Storage Cabinets",
-      price: "10,000",
+      price: "4,000",
       image: "/assets/images/storages/storage-cabinet.png",
     },
     {
       name: "Corner Storages",
-      price: "10,000",
+      price: "5,000",
       image: "/assets/images/storages/corner-storage.png",
     },
     {
       name: "Book Shelves",
-      price: "10,000",
+      price: "6,000",
       image: "/assets/images/storages/book-shelf.png",
     },
   ];

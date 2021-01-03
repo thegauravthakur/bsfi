@@ -14,28 +14,28 @@ const Index = () => {
     },
     {
       name: "Dressing Tables",
-      price: "10,000",
+      price: "8,000",
       image: "/assets/images/tables/dressing-table.png",
     },
     {
       name: "Bed-Side Tables",
-      price: "10,000",
+      price: "2,000",
       image: "/assets/images/tables/bed-side-table.png",
     },
     {
       name: "Coffee Tables",
-      price: "10,000",
+      price: "1,000",
       image: "/assets/images/tables/coffee-table.png",
     },
     {
       name: "Console Tables",
-      price: "10,000",
+      price: "1,000",
       image: "/assets/images/tv-units/tv-table.png",
     },
 
     {
       name: "Computer Tables",
-      price: "10,000",
+      price: "3,000",
       image: "/assets/images/tables/computer-table.png",
     },
   ];

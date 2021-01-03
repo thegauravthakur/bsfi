@@ -8,7 +8,7 @@ const Index = () => {
   const simpleBed = [
     {
       name: "King Size Beds",
-      price: "10,000",
+      price: "15,000",
       image: "/assets/images/bed/king-size-bed.png",
     },
     {
@@ -18,13 +18,13 @@ const Index = () => {
     },
     {
       name: "Beds without Storage",
-      price: "10,000",
+      price: "5,000",
       image: "/assets/images/bed/bed-without-storage.png",
     },
 
     {
       name: "Queen Size Beds",
-      price: "10,000",
+      price: "14,000",
       image: "/assets/images/bed/queen-size-bed.png",
     },
     {
@@ -34,7 +34,7 @@ const Index = () => {
     },
     {
       name: "Single Beds",
-      price: "10,000",
+      price: "5,000",
       image: "/assets/images/bed/single-bed.png",
     },
   ];

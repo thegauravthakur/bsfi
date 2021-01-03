@@ -9,12 +9,12 @@ const Index = () => {
   const cupboards = [
     {
       name: "2 Door Wardrobes",
-      price: "10,000",
+      price: "20,000",
       image: "/assets/images/cupboard/wardrobe-with-mirror.png",
     },
     {
       name: "3 door Wardrobes",
-      price: "10,000",
+      price: "25,000",
       image: "/assets/images/cupboard/3-door-wardrobe.png",
     },
     {
@@ -24,13 +24,13 @@ const Index = () => {
     },
     {
       name: "2 Door Wardrobes without mirror",
-      price: "10,000",
+      price: "12,000",
       image: "/assets/images/cupboard/2-door-wardrobe-without-mirror.png",
     },
 
     {
       name: "3 door Wardrobes with mirror",
-      price: "10,000",
+      price: "25,000",
       image: "/assets/images/cupboard/3-door-wardrobe-with-mirror.png",
     },
     {

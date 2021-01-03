@@ -9,33 +9,33 @@ const Index = () => {
   const storages = [
     {
       name: "Small TV-Units",
-      price: "10,000",
+      price: "3,000",
       image: "/assets/images/tv-units/small-tv-unit.png",
     },
     {
       name: "Wall Mount TV-Units",
-      price: "10,000",
+      price: "1,000",
       image: "/assets/images/tv-units/wall-mount-tv-unit.png",
     },
 
     {
       name: "High TV-Units",
-      price: "10,000",
+      price: "2,000",
       image: "/assets/images/tv-units/high-tv-unit.png",
     },
     {
       name: "TV Tables",
-      price: "10,000",
+      price: "2,000",
       image: "/assets/images/tv-units/tv-table.png",
     },
     {
       name: "Large TV Units",
-      price: "10,000",
+      price: "2,000",
       image: "/assets/images/tv-units/large-tv-unit.png",
     },
     {
       name: "Multipurpose TV Units",
-      price: "10,000",
+      price: "3,000",
       image: "/assets/images/tv-units/multi-purpose-tv-unit.png",
     },
   ];

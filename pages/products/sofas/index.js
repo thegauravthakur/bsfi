@@ -9,32 +9,32 @@ const Index = () => {
   const sofas = [
     {
       name: "Sofas",
-      price: "10,000",
+      price: "30,000",
       image: "/assets/images/sofa/sofa.png",
     },
     {
       name: "Divans",
-      price: "10,000",
+      price: "20,000",
       image: "/assets/images/sofa/divan.png",
     },
     {
       name: "L-Shaped Sofas",
-      price: "10,000",
+      price: "40,000",
       image: "/assets/images/sofa/l-shaped-sofa.png",
     },
     {
       name: "Lounges",
-      price: "10,000",
+      price: "30,000",
       image: "/assets/images/sofa/lounge.png",
     },
     {
       name: "Settee Sofas",
-      price: "10,000",
+      price: "20,000",
       image: "/assets/images/sofa/settee-sofa.png",
     },
     {
       name: "Classic Settees",
-      price: "10,000",
+      price: "20,000",
       image: "/assets/images/sofa/classic-settee.png",
     },
   ];
