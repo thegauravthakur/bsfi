@@ -132,7 +132,7 @@ const Contact = () => {
               />
               <button
                 type="submit"
-                className="px-5 py-2 text-white rounded-md focus:outline-none hover:bg-blue-600 bg-blue-500 "
+                className="px-5 py-2 text-white rounded-md focus:outline-none hover:bg-blue-600 bg-blue-500 transform hover:-translate-y-1 duration-300 hover:scale-100 "
               >
                 <div className="flex justify-evenly align-middle">
                   {loading ? <div className="lds-dual-ring" /> : null}

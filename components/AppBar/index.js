@@ -12,7 +12,7 @@ const AppBar = () => {
         <div>
           <p
             onClick={() => router.push("/")}
-            className="text-lg text-blue-600 font-bold cursor-pointer select-none"
+            className="text-lg text-blue-600 font-bold cursor-pointer select-none "
           >
             Bhaga Sidh Furniture Industry
           </p>
@@ -20,7 +20,7 @@ const AppBar = () => {
         <div className="text-gray-600  hidden md:grid grid-cols-4 gap-5">
           <button
             onClick={() => router.push("/")}
-            className={`focus:outline-none ${
+            className={`focus:outline-none transform hover:-translate-y-1 duration-300 hover:scale-100 ${
               router.pathname === "/"
                 ? "text-blue-600 font-bold"
                 : "hover:text-gray-900"
@@ -30,7 +30,7 @@ const AppBar = () => {
           </button>
           <button
             onClick={() => router.push("/products")}
-            className={`focus:outline-none  ${
+            className={`focus:outline-none transform hover:-translate-y-1 duration-300 hover:scale-100  ${
               router.pathname === "/products"
                 ? "text-blue-600 font-bold"
                 : "hover:text-gray-900"
@@ -40,7 +40,7 @@ const AppBar = () => {
           </button>
           <button
             onClick={() => router.push("/contact")}
-            className={`focus:outline-none ${
+            className={`focus:outline-none transform hover:-translate-y-1 duration-300 hover:scale-100 ${
               router.pathname === "/contact"
                 ? "text-blue-600 font-bold"
                 : "hover:text-gray-900"
@@ -50,7 +50,7 @@ const AppBar = () => {
           </button>
           <button
             onClick={() => router.push("/team")}
-            className={`focus:outline-none ${
+            className={`focus:outline-none transform hover:-translate-y-1 duration-300 hover:scale-100 ${
               router.pathname === "/team"
                 ? "text-blue-600 font-bold"
                 : "hover:text-gray-900"

@@ -21,12 +21,12 @@ const Header = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 sm:max-w-sm  md:max-w-md lg:max-w-xl md:mx-auto lg:mx-0 ">
           <button
             onClick={() => router.push("/products")}
-            className="focus:outline-none px-8 py-3 bg-blue-600 hover:bg-blue-700  text-white text-md md:text-xl rounded-md"
+            className="focus:outline-none px-8 py-3 bg-blue-600 hover:bg-blue-700  text-white text-md md:text-xl rounded-md transform hover:-translate-y-1 duration-300 hover:scale-100"
           >
             Our Products
           </button>
           <Link href={"/contact"}>
-            <button className="focus:outline-none px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white text-md md:text-xl rounded-md">
+            <button className="focus:outline-none px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white text-md md:text-xl rounded-md transform hover:-translate-y-1 duration-300 hover:scale-100">
               Contact Us
             </button>
           </Link>

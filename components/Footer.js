@@ -16,19 +16,19 @@ const Footer = () => {
         <IoLogoFacebook
           onClick={() => window.open("https://fb.com/gauravcodes", "_blank")}
           size={35}
-          className="cursor-pointer text-gray-300 hover:text-gray-400"
+          className="cursor-pointer text-gray-300 hover:text-gray-400 transform hover:-translate-y-1 duration-300 hover:scale-100"
         />
         <AiOutlineTwitter
           onClick={() =>
             window.open("https://twitter.com/gauravcodes", "_blank")
           }
           size={35}
-          className="cursor-pointer text-gray-300 hover:text-gray-400"
+          className="cursor-pointer text-gray-300 hover:text-gray-400 transform hover:-translate-y-1 duration-300 hover:scale-100"
         />
         <IoLogoInstagram
           onClick={() => window.open("https://instagram.com", "_blank")}
           size={35}
-          className="cursor-pointer text-gray-300 hover:text-gray-400"
+          className="cursor-pointer text-gray-300 hover:text-gray-400 transform hover:-translate-y-1 duration-300 hover:scale-100"
         />
       </div>
       <div className="text-white flex justify-evenly w-52 mx-auto mt-3 remove-touch-effect">
